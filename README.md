@@ -46,15 +46,15 @@ Para esto, se define que un paciente posee estancia hospitalaria prolongada si h
 
 Contodo el analisis exploratorio considere que el modelo que debia hacer era un arbol de desiciones, asique prcedi a crearlo y entrenarlo:
 
-+ cree dos nuevos dataframes a partir del dataframe de entrenamiento 'OneHot_Hosp_train'. Uno sin la columna 'stay' y otro unicaente con la columna 'stay'
++ Cree dos nuevos dataframes a partir del dataframe de entrenamiento 'OneHot_Hosp_train'. Uno sin la columna 'stay' y otro unicaente con la columna 'stay'
 
-+ utilice la funcion de sklearn train_test_split para crear x de entrenamiento y de testeo con estos nuevos data frames, dividiendo la data 70-30 respectivamente.
++ Cree el modelo de arbol de desiciones.
 
-+ entrene el modelo
++ Entrene el modelo
 
-+ vizualice el modelo
++ Vizualice el modelo
 
-+ Probe el modelo con los x e y de testeto creados previamente.
++ Probe el modelo con los x e y de entrenamiento creados previamente.
 
 + Calcule el accurancy, el recall y la matriz de confusion.
 
